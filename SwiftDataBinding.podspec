@@ -24,7 +24,7 @@ Responsive UI Tools, make the rendering of the view changed by data change, insp
   s.homepage         = 'https://github.com/ajunjunandtmac/SwiftDataBinding'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
-  s.author           = { 'zhoujun2020@sumec.com.cn' => '120489458@qq.com' }
+  s.author           = { 'ajunjunandtmac' => '120489458@qq.com' }
   s.source           = { :git => 'https://github.com/ajunjunandtmacn/SwiftDataBinding.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
