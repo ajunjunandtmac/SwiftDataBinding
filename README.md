@@ -5,11 +5,42 @@
 [![License](https://img.shields.io/cocoapods/l/SwiftDataBinding.svg?style=flat)](https://cocoapods.org/pods/SwiftDataBinding)
 [![Platform](https://img.shields.io/cocoapods/p/SwiftDataBinding.svg?style=flat)](https://cocoapods.org/pods/SwiftDataBinding)
 
-## Example
+ SwiftDataBinding is a responsive UI Tools, make the rendering of the view changed by data change, inspired by Vue.
 
-To run the example project, clone the repo, and run `pod install` from the Example directory first.
+## Usage
 
-## Requirements
+- initialize a variable
+
+```swift
+public let data: DynamicData<String> = DynamicData.Initialize("")
+```
+
+- bind data and UI component
+
+```swift
+dataLabel.bindText(data)
+```
+
+- change the data and the label will be rendering automatically then
+
+```swift
+data.assign("new value")
+```
+
+- How to make more UI components responsive？
+
+Refer to the example in 'UIView+DataBinding' file to add capabilities to the UI components you want
+
+## Sample Projects
+
+- To run the example project, clone the repo, and run `pod install` from the Example directory first.
+
+- just find the key text "core step" to see how the function works
+
+## Dependencies
+
+- RxSwift 
+- RxCocoa
 
 ## Installation
 
@@ -19,10 +50,6 @@ it, simply add the following line to your Podfile:
 ```ruby
 pod 'SwiftDataBinding'
 ```
-
-## Author
-
-zhoujun2020@sumec.com.cn, 120489458@qq.com
 
 ## License
 

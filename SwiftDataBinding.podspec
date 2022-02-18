@@ -18,14 +18,14 @@ Pod::Spec.new do |s|
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
   s.description      = <<-DESC
-Responsive UI Tools, make the rendering of the view changed by data change, inspired by vue. 
+  Responsive UI Tools, make the rendering of the view changed by data change, inspired by Vue. 
                        DESC
 
   s.homepage         = 'https://github.com/ajunjunandtmac/SwiftDataBinding'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'ajunjunandtmac' => '120489458@qq.com' }
-  s.source           = { :git => 'https://github.com/ajunjunandtmacn/SwiftDataBinding.git', :tag => s.version.to_s }
+  s.source           = { :git => 'https://github.com/ajunjunandtmac/SwiftDataBinding.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '9.0'
