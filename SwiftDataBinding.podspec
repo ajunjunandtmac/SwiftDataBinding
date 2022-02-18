@@ -21,7 +21,7 @@ Pod::Spec.new do |s|
 Responsive UI Tools, make the rendering of the view changed by data change, inspired by vue. 
                        DESC
 
-  s.homepage         = 'https://github.com/ajunjunandtmac/iOSDataBingding'
+  s.homepage         = 'https://github.com/ajunjunandtmac/SwiftDataBinding'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'zhoujun2020@sumec.com.cn' => '120489458@qq.com' }
