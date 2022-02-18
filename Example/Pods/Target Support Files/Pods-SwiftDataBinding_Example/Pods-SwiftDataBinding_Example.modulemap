@@ -1,0 +1,6 @@
+framework module Pods_SwiftDataBinding_Example {
+  umbrella header "Pods-SwiftDataBinding_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,33 @@
+PODS:
+  - RxCocoa (6.2.0):
+    - RxRelay (= 6.2.0)
+    - RxSwift (= 6.2.0)
+  - RxRelay (6.2.0):
+    - RxSwift (= 6.2.0)
+  - RxSwift (6.2.0)
+  - SwiftDataBinding (0.1.0):
+    - RxCocoa
+    - RxSwift
+
+DEPENDENCIES:
+  - SwiftDataBinding (from `../`)
+
+SPEC REPOS:
+  trunk:
+    - RxCocoa
+    - RxRelay
+    - RxSwift
+
+EXTERNAL SOURCES:
+  SwiftDataBinding:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  RxCocoa: 4baf94bb35f2c0ab31bc0cb9f1900155f646ba42
+  RxRelay: e72dbfd157807478401ef1982e1c61c945c94b2f
+  RxSwift: d356ab7bee873611322f134c5f9ef379fa183d8f
+  SwiftDataBinding: 83c9346ab38b6ae9ca5d2e9557a4d218fe383ee5
+
+PODFILE CHECKSUM: 6eb95e97ede01df50b15e3d3654f36d0f9862880
+
+COCOAPODS: 1.11.2

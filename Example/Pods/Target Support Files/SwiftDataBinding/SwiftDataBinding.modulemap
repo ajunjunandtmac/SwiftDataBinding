@@ -1,0 +1,6 @@
+framework module SwiftDataBinding {
+  umbrella header "SwiftDataBinding-umbrella.h"
+
+  export *
+  module * { export * }
+}
